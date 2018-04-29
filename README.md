@@ -1,6 +1,9 @@
+# The Algorithms - Python 
+>There are many implementations of sorts in the Python standard library that are much better for performance reason*  
 
+*This is an exercise for the future work and challenges*
 ![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1525592135&di=f98f1b4dfb6c461ee0f0f04a7b387366&imgtype=jpg&er=1&src=http%3A%2F%2Fs6.sinaimg.cn%2Fmw690%2F003YlcYagy6EQQmY3aJa5%26amp%3B690)
-# 创建这个仓库的目的
+## 创建这个仓库的目的
 
 - 熟悉python语言的使用（用python3 实现），习惯使用markdown写文档，本人水平有限，托管于github希望与大家共同成长
 
