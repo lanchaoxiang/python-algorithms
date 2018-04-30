@@ -1,15 +1,15 @@
-def quick_sort(array, l, r):  
-    if l < r:  
-        q = partition(array, l, r)  
-        quick_sort(array, l, q - 1)  
-        quick_sort(array, q + 1, r)  
-  
-def partition(array, l, r):  
-    x = array[r]  
-    i = l - 1  
-    for j in range(l, r):  
-        if array[j] <= x:  
-            i += 1  
-            array[i], array[j] = array[j], array[i]  
-    array[i + 1], array[r] = array[r], array[i+1]  
-    return i + 1 
+import random
+def quick_sort(arr):
+    if len(arr) < 2:
+        return arr
+    else:
+        pivot = arr[0]
+        less = [i for i in arr[1:] if i <= pivot]
+        bigger = [i for i in arr[1:] if i >pivot]
+        return quick_sort(less)+[pivot]+quick_sort(bigger)
+
+list = list(range(10))
+random.shuffle(list)
+print(list)
+print(quick_sort(list))
+
