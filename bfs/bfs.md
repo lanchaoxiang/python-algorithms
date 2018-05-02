@@ -35,4 +35,5 @@ lan['me'] = ['chao','xiang','233']
 队列是一种先进先出（*First in First Out*）的数据结构,  
 而栈是后进先出（*Last in First out*）
 ![](https://raw.githubusercontent.com/lanchaoxiang/python-algorithms/master/bfs/3.png)
-#### [实现算法](https://raw.githubusercontent.com/lanchaoxiang/python-algorithms/master/bfs/bfs.py)
+#### [实现算法(bfs.py)](https://raw.githubusercontent.com/lanchaoxiang/python-algorithms/master/bfs/bfs.py)
+![](https://raw.githubusercontent.com/lanchaoxiang/python-algorithms/master/bfs/4.png)
